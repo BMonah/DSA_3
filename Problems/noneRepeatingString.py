@@ -24,7 +24,8 @@ def first_non_repeating_char(string):
         return arr[0]
 
 
-string = 'leetcode'
+string = 'bbddleetcode'
 print(first_none_repeating(string))
+print(first_non_repeating_char(string))
 # print(first_non_repeating_char(string))
 # print(Solution().lengthOfLongestSubstring(string))

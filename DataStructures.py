@@ -188,23 +188,6 @@ for i in range(len(newList)):
     print(newList[i])
 
 
-charSet = set()
-# print(sorted(charSet))
-l = 0
-string = "abccddefg"
-charSet.add('s')
-charSet.add('d')
-charSet.remove('d')
-print(charSet)
-'''
-for i in range(len(string)):
-    while string[i] in charSet:
-        charSet.remove(string[l])
-        l += 1
-    charSet.add(string[i])
-print(charSet)
-'''
-
 test = [1, 2, 3]
 test.pop(0)
 print(test)
@@ -238,3 +221,27 @@ for n in nums:
     print(count)
 
 print(5//2)
+
+charSet = set()
+# print(sorted(charSet))
+l = 0
+string = "abccddefg"
+charSet.add('s')
+charSet.add('d')
+charSet.remove('d')
+print(charSet)
+'''
+for i in range(len(string)):
+    while string[i] in charSet:
+        charSet.remove(string[l])
+        l += 1
+    charSet.add(string[i])
+print(charSet)
+'''
+
+nums = [1, 2, 3, 4]
+new = 1
+
+for i in nums:
+    new *= i
+print(new)

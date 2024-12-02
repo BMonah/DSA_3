@@ -1,3 +1,6 @@
+import heapq
+
+
 def bubble_sort(my_list):
     for i in range(len(my_list) - 1, 0, -1):
         for j in range(i):
@@ -19,3 +22,15 @@ def bubble_sort2(my_list):
 
 
 print(bubble_sort2([2, 7, 29, 1, 13, 39, 12, 8]))
+
+
+class Solution:
+    def lastStoneWeight(self, stones):
+        print(stones)
+        my_heap = heapq.heapify(stones)
+        print(my_heap)
+        return my_heap
+
+
+stones = [2, 3, 6, 2, 4]
+print(Solution().lastStoneWeight(stones))
