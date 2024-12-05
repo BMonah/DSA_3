@@ -37,7 +37,7 @@ n3 = 1
 n4 = 45654312
 n5 = 2147483476
 
-print(Solution().nextGreaterElement(n5))
+print(Solution().nextGreaterElement(n4))
 
 
 class Solution:
@@ -65,7 +65,5 @@ class Solution:
 
         return result if result <= (2**31-1) else -1
 
-
-print(Solution().nextGreater(n5))
 
 print(2**31-1)

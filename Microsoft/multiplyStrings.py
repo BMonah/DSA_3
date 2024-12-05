@@ -21,6 +21,7 @@ class Solution:
                 # make sure only the most significant digit remains in the current index
                 result[i+j] %= 10
 
+        print(result)
         # remve leading zeros and reverse the result array to form the final number
         while len(result) > 1 and result[-1] == 0:
             result.pop()
@@ -34,3 +35,4 @@ print(Solution().multiply("123", "456"))
 
 m = ['1', '2', '3', '4']
 print(''.join(m))
+print(15//10)
